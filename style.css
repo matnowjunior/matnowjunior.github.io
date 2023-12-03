@@ -1,34 +1,48 @@
 body {
     display: flex;
     justify-content: center;
-    align-items: flex-start; /* Align items to the start (top) */
-    padding-top: 50px; /* Add some padding at the top */
+    align-items: flex-start;
     height: 100vh;
     margin: 0;
-    background-color: #f4f4f4;
-    font-family: 'Lexend', sans-serif;
+    background-image: url('D:/HTML/DRX_MW_Controler/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.content-container {
+    text-align: center;
+    margin-top: 100px; /* Adjust as necessary */
+}
+
+.top-image {
+    max-width: 35%; /* Ensures the image is responsive */
+    height: auto;
+    margin-top: -50px; /* Space between the image and the button */
+    margin-bottom: 30px;
 }
 
 .download-button-container {
-    text-align: center;
+    margin-top: 20px; /* Space between the image and the button */
 }
 
 .download-button {
     display: inline-block;
-    padding: 60px 120px; /* Reduced padding for a smaller button */
-    font-size: 48px; /* Reduced font size */
+    padding: 60px 120px;
+    font-size: 36px; 
     text-decoration: none;
     color: black;
-    background-color: #ffdd00;
+    background-color: #05F283;
     border: none;
     border-radius: 15px;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.3s;
-    font-family: 'Lexend', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
 
 .download-button:hover {
-    background-color: #ccaa00;
+    background-color:#22f995;
     transform: scale(1.05);
 }

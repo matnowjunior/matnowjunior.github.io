@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the start (top) */
+    padding-top: 50px; /* Add some padding at the top */
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+    font-family: 'Lexend', sans-serif;
+}
+
+.download-button-container {
+    text-align: center;
+}
+
+.download-button {
+    display: inline-block;
+    padding: 60px 120px; /* Reduced padding for a smaller button */
+    font-size: 48px; /* Reduced font size */
+    text-decoration: none;
+    color: black;
+    background-color: #ffdd00;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    font-family: 'Lexend', sans-serif;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.download-button:hover {
+    background-color: #ccaa00;
+    transform: scale(1.05);
+}
